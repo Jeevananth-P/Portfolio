@@ -1,0 +1,89 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Styles */
+header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 10px;
+}
+
+/* Sections Styles */
+section {
+  padding: 50px 0;
+}
+
+#about {
+  background-color: #f8f9fa;
+}
+
+#skills ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: 10px;
+}
+
+#achievements .achievement,
+#certifications .certification,
+#projects .project {
+  margin-bottom: 30px;
+}
+
+.project h3,
+.achievement h3,
+.certification h3 {
+  color: #007bff;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icon {
+  color: #fff;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  nav ul li {
+    margin: 10px;
+  }
+}
